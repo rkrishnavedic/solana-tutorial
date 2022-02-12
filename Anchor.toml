@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+project = "H6rRorzddTYHLnaep5aapZKXBCRqWA2UwDngNy9GNmj"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/rahulkrishna/.config/solana/id.json"
+
+[scripts]
+test = "node tests/project.js"
